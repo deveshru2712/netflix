@@ -8,7 +8,7 @@ import Navbar from "../Components/Navbar";
 
 import { Link } from "react-router-dom";
 
-import { original_image_Url } from "../Utils/constant.js";
+import { original_image_Url } from "../Utils/Constant";
 
 const SearchPage = () => {
   const [activeTab, setActiveTab] = useState("movie");
