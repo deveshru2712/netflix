@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { useAuthStore } from "../Store/AuthUser";
+import { useAuthStore } from "../Store/AuthStore";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");

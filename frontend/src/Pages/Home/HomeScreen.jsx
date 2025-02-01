@@ -12,9 +12,9 @@ import {
   movie_category,
   original_image_Url,
   tv_category,
-} from "../../Utils/constant.js";
+} from "../../Utils/Constant";
 
-import useContentStore from "../../store/Content.js";
+import useContentStore from "../../Store/ContentStore";
 
 const HomeScreen = () => {
   const { trendingContent } = useTrending();

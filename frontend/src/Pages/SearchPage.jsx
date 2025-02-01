@@ -3,7 +3,7 @@ import { Search } from "lucide-react";
 import axios from "axios";
 import toast from "react-hot-toast";
 
-import useContentStore from "../store/Content";
+import useContentStore from "../Store/ContentStore";
 import Navbar from "../Components/Navbar";
 
 import { Link } from "react-router-dom";

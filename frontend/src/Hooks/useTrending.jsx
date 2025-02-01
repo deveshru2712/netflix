@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import useContentStore from "../store/Content";
+import useContentStore from "../Store/ContentStore";
 import axios from "axios";
 
 const useTrending = () => {

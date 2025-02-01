@@ -1,8 +1,8 @@
 import { LogOut, Menu, Search } from "lucide-react";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { useAuthStore } from "../Store/AuthUser";
-import useContentStore from "../store/Content";
+import { useAuthStore } from "../Store/AuthStore";
+import useContentStore from "../Store/ContentStore";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

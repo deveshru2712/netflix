@@ -2,9 +2,9 @@ import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
-import { small_image_base_Url } from "../Utils/constant.js";
+import { small_image_base_Url } from "../Utils/Constant";
 
-import useContentStore from "../store/Content";
+import useContentStore from "../Store/ContentStore";
 
 import { ChevronsLeft, ChevronsRight } from "lucide-react";
 
