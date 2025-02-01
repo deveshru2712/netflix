@@ -10,11 +10,11 @@ import {
   ChevronsRight,
 } from "lucide-react";
 
-import useContentStore from "../Store/Content.js";
-import { original_image_Url, small_image_base_Url } from "../Utils/constant.js";
+import useContentStore from "../Store/ContentStore";
+import { original_image_Url, small_image_base_Url } from "../Utils/Constant";
 
-import Navbar from "../Components/Navbar.jsx";
-import WatchPageSkeleton from "../Components/Skeletons/WatchPageSkeleton.jsx";
+import Navbar from "../Components/Navbar";
+import WatchPageSkeleton from "../Components/Skeleton/WatchPageSkeleton";
 
 const WatchPage = () => {
   const { id } = useParams();
