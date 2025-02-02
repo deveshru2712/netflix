@@ -46,7 +46,7 @@ const HomeScreen = () => {
             setImageLoading(false);
           }}
           alt="image"
-          className="absolute top-0 left-0 h-full object-cover -z-50"
+          className="absolute top-0 left-0 h-full w-full object-cover -z-50"
         />
 
         <div
